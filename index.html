@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TXT a Excel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>📊 Conversor TXT → Excel</h1>
+        <p>Selecciona uno o varios archivos de texto (.txt) para convertirlos a un archivo Excel (.xlsx).</p>
+        <input type="file" id="archivos" multiple accept=".txt">
+        <button id="btnConvertir" type="button">Generar Excel</button>
+        <hr>
+        <h3>Resultado</h3>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
